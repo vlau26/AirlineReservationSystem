@@ -255,6 +255,7 @@ void GetTicketInfo(vector<Flight> flights)
 	cin >> passengerLastName;
 	cout << "Enter passenger's email: " << endl;
 	cin >> passengerEmail;
+	cout << '\n' << endl;
 
 	ConvertToUpper(passengerFirstName);
 	ConvertToUpper(passengerLastName);
@@ -275,6 +276,7 @@ void GetTicketInfo(vector<Flight> flights)
 	{
 		passenger.DisplayPassengerInfo();
 		passengerInfoFlight.DisplayFlightInfo();
+		cout << "---------------------------------------" << endl;
 	}
 	else
 	{
